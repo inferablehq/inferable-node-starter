@@ -10,7 +10,7 @@ const inferable = new Inferable({
 });
 
 const workflow = inferable.workflows.create({
-  name: "hello",
+  name: "hacker-news",
   inputSchema: z.object({
     executionId: z.string(),
   }),
